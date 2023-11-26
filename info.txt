@@ -1,0 +1,17 @@
+
+
+---- my chat app:
+
+specifications:
+
+1- User Login
+2- User chat 
+3- single chat 
+4- Group chat
+5- search message
+6- google auth
+7- firebase or sup base.
+8- solid ui
+7- structured work.
+
+
