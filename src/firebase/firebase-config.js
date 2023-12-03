@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 // Authentication:
-import { getAuth, signInWithPhoneNumber  } from "firebase/auth";
+import { getAuth  } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBmIHLD-a_EMWGhlavrh0deIt9_6UlwIjw",
@@ -14,6 +14,6 @@ const firebaseConfig = {
   measurementId: "G-2ZM2LJ66LF"
 };
 
-const analytics = getAnalytics(app);
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 export const auth = getAuth(app);

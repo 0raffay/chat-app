@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import '../src/assets/css/style.css'
+import Login from './components/login'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className='main'>
-        raffay
-      </div>
+      <Login/>
     </>
   )
 }
